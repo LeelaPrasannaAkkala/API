@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>API APP</title>
+</head>
+<body>
+    <h1>Youtube + twitter API</h1>
+    <p>This ia a POC to connect twitter and youtube API</p>
+    <a href="{{ url_for('video', video_id='kqtD5dpn9C8') }}">Watch a Video</a>
+    <a href="{{ url_for('discussion') }}">Join the Discussion</a>
+</body>
+</html>
